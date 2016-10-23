@@ -36,6 +36,5 @@ cacheSolve <- function(x, ...) {
 
 x<-matrix(c(1,0,5,2,1,6,3,4,0),3,3,byrow=FALSE)
 makeCacheMatrix(x)
-cacheSolve(makeCacheMatrix(x))
-        
-git push rdpeng/ProgrammingAssignment2 mischav/ProgrammingAssignment2
+cacheSolve(makeCacheMatrix(x))     
+
